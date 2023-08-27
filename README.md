@@ -1,3 +1,3 @@
-# Kiểm Tra Cuối Khoa HTML CSS - Java 22
+# Kiểm Tra Cuối Khoá HTML CSS - Java 22
 
 Author: Đoàn Sơn Tùng
