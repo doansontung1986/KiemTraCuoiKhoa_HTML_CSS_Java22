@@ -6,7 +6,7 @@
 }
 
 body {
-  width: 100%;
+  max-width: 1440px;
   margin: auto;
 }
 
@@ -72,7 +72,7 @@ header p {
   font-size: 48px;
 }
 
-.collections pre {
+.collections p {
   width: fit-content;
   text-transform: capitalize;
   font-size: 20px;
@@ -375,16 +375,16 @@ footer p {
   font-weight: 500;
 }
 
-footer .catalog-list {
+footer ul {
   list-style-type: none;
   display: inline;
 }
 
-footer .catalog-list li {
+footer li {
   padding-bottom: 10px;
 }
 
-footer .catalog-list li a {
+footer li a {
   text-decoration: none;
   color: #1e2832;
 }
@@ -423,4 +423,121 @@ footer .catalog-list li a {
 
 .copyright i {
   color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+  .top-header .search-icon {
+    display: none;
+  }
+
+  .top-header .right-header-menu {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .collections .model img {
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .collections .flower img {
+    display: none;
+  }
+
+  .brand-logo {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .brand-logo .col-md-2 {
+    margin-top: 20px;
+  }
+
+  .all-products .product-list .row {
+    flex-wrap: wrap;
+  }
+
+  .explore-style {
+    width: 100%;
+    margin: auto;
+  }
+
+  .explore-style p {
+    display: none;
+  }
+
+  .explore-style img {
+    width: 100%;
+  }
+
+  .zara-banner {
+    display: none;
+  }
+
+  .best-sellers .product-list .row {
+    flex-wrap: wrap;
+  }
+
+  .best-sellers .product-list .product-card .row {
+    width: fit-content;
+  }
+
+  .best-sellers img {
+    width: 100%;
+  }
+
+  .instagram .row {
+    flex-wrap: wrap;
+  }
+
+  .instagram img {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .support-links .coral-logo {
+    width: 40%;
+    margin: auto;
+  }
+
+  .support-links .social-icon {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .support-links .coral-description {
+    width: 70%;
+    margin: auto;
+  }
+
+  .support-links p {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .support-links ul {
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: -20px;
+  }
+
+  .copyright img {
+    width: 100%;
+  }
+
+  .copyright .scroll-to-top {
+    display: none;
+  }
 }
