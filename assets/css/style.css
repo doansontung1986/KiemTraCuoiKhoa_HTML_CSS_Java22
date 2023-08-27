@@ -10,6 +10,7 @@ body {
   margin: auto;
 }
 
+/* Header section */
 header {
   background-color: #f4f4f5;
   padding: 10px 0;
@@ -45,6 +46,7 @@ header p {
   color: black;
 }
 
+/* Category menu */
 .category-menu li {
   font-size: 14px;
   margin-right: 20px;
@@ -56,6 +58,7 @@ header p {
   background-color: #f4f4f5 !important;
 }
 
+/* Collections section */
 .collections {
   position: relative;
   background-color: #f4f4f5;
@@ -103,6 +106,7 @@ header p {
   height: 150px;
 }
 
+/* Brand section */
 .brand-logo {
   margin-top: 60px;
 }
@@ -111,6 +115,7 @@ header p {
   margin: 0 10px;
 }
 
+/* Explore section */
 .explore-style {
   position: relative;
   width: 100%;
@@ -126,20 +131,31 @@ header p {
   font-weight: 300;
 }
 
-.explore-style img {
-  object-fit: cover;
-}
-
 .explore-style .col-md-6 img {
   height: 650px;
   padding-left: 50px;
   margin-top: 10px;
 }
 
+.explore-style .container .row .col-md-6 .row .col-md-6 {
+  position: relative;
+  height: 320px;
+  margin-top: 10px;
+}
+
+.explore-style .container .row .col-md-6 .row .col-md-6 .tag-sale {
+  position: absolute;
+  width: 105px;
+  height: 25px;
+  top: 20px;
+}
+
 .explore-style .container .row .col-md-6 .row .col-md-6 img {
   height: 320px;
   margin-top: 10px;
 }
+
+/* All products section */
 .all-products {
   margin-top: 30px;
 }
@@ -185,6 +201,17 @@ header p {
   margin-top: 10px;
 }
 
+.product-card {
+  position: relative;
+}
+
+.product-card .tag-sale {
+  position: absolute;
+  width: 70px;
+  height: 25px;
+  top: 30px;
+}
+
 .product-card .col-md-3:nth-child(1) {
   color: #a9b6b2;
   text-transform: capitalize;
@@ -216,6 +243,7 @@ header p {
   margin-right: 0;
 }
 
+/* Zara banner */
 .zara-banner {
   position: relative;
   background-image: url("../images/andrey.png");
@@ -269,6 +297,7 @@ header p {
   font-weight: 500;
 }
 
+/* Best sellers section */
 .best-sellers nav {
   background-color: #fff !important;
 }
@@ -294,6 +323,7 @@ header p {
   padding: 10px 25px;
 }
 
+/* Instagram section */
 .instagram {
   margin-top: 30px;
   background-color: #f4f4f5;
@@ -343,6 +373,7 @@ header p {
   width: 80px;
 }
 
+/* Fooer section */
 footer {
   padding-top: 80px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -389,6 +420,7 @@ footer li a {
   color: #1e2832;
 }
 
+/* Copyright section */
 .copyright {
   background-color: #1e2832;
   position: relative;
@@ -459,6 +491,10 @@ footer li a {
     flex-wrap: wrap;
   }
 
+  .all-products .filter-button {
+    display: none;
+  }
+
   .explore-style {
     width: 100%;
     margin: auto;
@@ -470,6 +506,14 @@ footer li a {
 
   .explore-style img {
     width: 100%;
+  }
+
+  .explore-style .container .row .col-md-6 .row .col-md-6 .tag-sale {
+    position: absolute;
+    width: 105px;
+    height: 25px;
+    top: 30px;
+    left: 15px;
   }
 
   .zara-banner {
@@ -486,6 +530,18 @@ footer li a {
 
   .best-sellers img {
     width: 100%;
+  }
+
+  .best-sellers .show-all-button {
+    display: none;
+  }
+
+  .product-card .tag-sale {
+    position: absolute;
+    width: 70px;
+    height: 25px;
+    top: 30px;
+    left: 0;
   }
 
   .instagram .row {
